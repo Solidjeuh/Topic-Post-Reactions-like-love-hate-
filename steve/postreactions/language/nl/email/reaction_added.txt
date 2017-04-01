@@ -1,0 +1,12 @@
+Subject: Bericht Reactie - "{REACTION}"
+
+Hallo {USERNAME},
+
+Je ontvangt deze notificatie omdat {REACTION_USER} reageerde op jouw post "{POST_SUBJECT}" op "{SITENAME}". 
+Je kan de volgende link gebruiken om de reactie te bekijken.
+
+{U_VIEW_POST}
+
+Je hebt aangevraagd om notificaties te ontvangen van deze event. Hierbij herinneren we je eraan dat je kan kiezen om deze functie uit te schakelen door de bijhorende instelling te wijzigen in je profiel.
+
+{EMAIL_SIG}
