@@ -3,7 +3,7 @@
  *
  * Topic/Post Reactions. An extension for the phpBB 3.2.0 Forum Software package.
  * @author Steve <http://www.steven-clark.online/phpBB3-Extensions/>
-  * Nederlandse vertaling @ Solidjeuh <https://www.froddelpower.be>
+ * Nederlandse vertaling @ Solidjeuh <https://www.froddelpower.be>
  * @copyright (c) phpBB Limited <https://www.phpbb.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
@@ -20,6 +20,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
+	'REACTIONS_VERSION'				=> '0.1.6-dev',
 	'REACTIONS'						=> 'Reacties',	
 	'REACTION_COPY'					=> '<a href="http://www.steven-clark.online/" onclick="window.open(this.href);return false;">phpBB Post Reacties</a> | Emoji art Door: <a href="http://emojione.com/" onclick="window.open(this.href);return false;">EmojiOne</a>',
 	'REACTIONS_TITLE'				=> 'Onderwerp/Bericht Reacties',
@@ -30,6 +31,8 @@ $lang = array_merge($lang, array(
 	'ENABLE_TOPIC_REACTIONS'		=> 'Schakel Reacties in op dit Onderwerp',
 	'EXPLAIN_REACTIONS_POSTING'		=> 'Hier kan je opties selecteren voor Onderwerp en Bericht Reacties',
 
+	'LOG_ACP_REACTION_ADDED'		=> '<strong>Voegde nieuwe Onderwerp/Bericht Reactie toe %1$s</strong>',
+	'LOG_ACP_REACTION_EDITED'		=> '<strong>Bewerkte Onderwerp/Bericht Reactie %1$s',
 	'LOG_ACP_REACTION_DELETED'		=> '<strong>Verwijderde Onderwerp/Bericht Reacties</strong>',
 
 	'ADD_REACTION'					=> 'Reageer op Bericht',

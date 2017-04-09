@@ -21,6 +21,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 //ACP MAIN abc..
+	'REACTIONS_VERSION'				=> '0.1.6-dev',
 	'ACP_REACTIONS_TITLE'			=> 'Onderwerp/Bericht Reacties',
 	'ACP_REACTIONS_SETTINGS'		=> 'Instellingen',
 	'ACP_REACTIONS_ENABLE'			=> 'Schakel Onderwerp/Bericht Reacties in',

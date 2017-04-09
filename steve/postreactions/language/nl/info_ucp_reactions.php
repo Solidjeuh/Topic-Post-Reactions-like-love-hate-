@@ -20,6 +20,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
+	'REACTIONS_VERSION'					=> '0.1.6-dev',
 	'UCP_ENABLE_REACTIONS'				=> 'Schakel Onderwerp/Bericht Reacties in',
 	'UCP_ENABLE_REACTIONS_EXPLAIN'		=> 'Nee selecteren zal jouw mogelijkheid verwijderen om te reageren op Berichten, Gebruikers mogelijkheid om te reageren op je Berichten, jouw Reactie pagina, tellingen &amp; notificaties',
 	'UCP_DEFAULT_POST_SETTINGS'			=> 'Bewerk standaard Onderwerp/Bericht Reacties instellingen',

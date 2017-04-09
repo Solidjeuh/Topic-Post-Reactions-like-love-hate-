@@ -35,6 +35,7 @@ $lang = array_merge($lang, array(
 
 // User Permissions	
 $lang = array_merge($lang, array(
+	'REACTIONS_VERSION'				=> '0.1.6-dev',
 	'ACL_U_ADD_REACTIONS'			=> 'Kan Onderwerp/Bericht Reacties toevoegen',
 	'ACL_U_DELETE_REACTIONS'		=> 'Kan Onderwerp/Bericht Reacties verwijderen',
 	'ACL_U_DISABLE_REACTIONS'		=> 'Kan Onderwerp/Bericht Reacties uitschakelen',
