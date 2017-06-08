@@ -20,7 +20,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'REACTIONS_VERSION'				=> '0.1.6-dev',
+	'REACTIONS_VERSION'				=> '0.5.5-dev',
 	'REACTIONS'						=> 'Reacties',	
 	'REACTION_COPY'					=> '<a href="http://www.steven-clark.online/" onclick="window.open(this.href);return false;">phpBB Post Reacties</a> | Emoji art Door: <a href="http://emojione.com/" onclick="window.open(this.href);return false;">EmojiOne</a>',
 	'REACTIONS_TITLE'				=> 'Onderwerp/Bericht Reacties',
@@ -42,27 +42,35 @@ $lang = array_merge($lang, array(
 	'REACTION_DUPLICATE'			=> 'Je hebt reeds gereageerd op dit bericht',
 	'REACTIONS_LIST_VIEW'			=> 'Bekijk Alles',	
 	'REACTION_NOTIFICATION'			=> 'Nieuwe Reactie: <strong>“%1$s”</strong> Door: %2$s In:<br /> <strong>%3$s</strong>',
+	'REACTION_TYPES'				=> 'Reactie Types',
+	'REACTION_TYPE_DUPLICATE'		=> 'Dubbele Reactie',	
 	'REACTION_UPDATED'				=> 'Reactie geupdate',
-	'UPDATE_REACTION'				=> 'Update reactie',
+	'RESYNC_REACTIONS'				=> 're-synchroniseer Reacties',	
 	'SELECT_REACTION_TYPES'			=> 'Selecteer Reacties die Gebruikers niet kunnen gebruiken om te reageren in jouw berichten',
+	'UPDATE_REACTION'				=> 'Update reactie',
+	
 //Errors
 	'NOT_AUTHORISED_REACTIONS'		=> 'Je hebt geen toestemming om Onderwerp/Bericht Reacties te bekijken.',
 	'NOTIFICATION_TYPE_STEVE_REACTION' 		=> 'Iemand Reageerde op jouw Onderwerp/Bericht',	
 	'REACTIONS_DISABLED'			=> 'De Onderwerp/Bericht Reacties pagina is uitgeschakeld',
+	'REACTIONS_DISABLED_USER'		=> 'Deze Onderwerp/Bericht Reactie kan niet weergegeven worden want de gebruiker heeft reacties uitgeschakeld of heeft niet langer permissies.',	
 	'REACTIONS_NOT_FOUND'			=> 'Een <strong>Fout</strong> heeft zich voorgedaan',//?
 	'REACTION_ERROR'				=> 'Een <strong>Fout</strong> heeft zich voorgedaan, gelieve de pagina te vernieuwen en opnieuw te proberen',
+	'RESYNC_DISABLED'				=> 'Re-synchroniseren van Reacties is momenteel uitgeschakeld',
 	//
-	'REACTIONS_TOTAL'				=> 'Totale Reacties',
-	'REACTION_COUNT_TOTAL'			=> 'Totale Bericht Reacties',
 
+	'TOO_FEW_CHARS'					=> 'Je bericht bevat ter weinig karakters.',
 /* 	
 	'USER_REACTION'	=> array(
-		1 => 'Reactie',
-		2 => 'Reacties',
+		1 => 'Reaction',
+		2 => 'Reactions',
 	),
 */	
 	'HR_RECENT_REACTIONS'			=> 'Recente Reacties',
 	'RECENT_REACTIONS'				=> 'Toont %d Reacties of %2d',
+	'REACTION_COUNT_TOTAL'			=> 'Totaal post reacties',	
+	'REACTIONS_TOTAL'				=> 'Totaal Reacties',	
+	
 	'USER_REACTION'					=> 'Reactie %d',
 	'USER_REACTIONS'				=> 'Reacties %d',
 	'VIEW_REACTIONS'				=> 'Bekijk Reacties',	
