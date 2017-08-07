@@ -41,7 +41,7 @@ $lang = array_merge($lang, array(
 	'REACTION_DELETED'				=> 'Reactie verwijderd',
 	'REACTION_DUPLICATE'			=> 'Je hebt reeds gereageerd op dit bericht',
 	'REACTIONS_LIST_VIEW'			=> 'Bekijk Alles',	
-	'REACTION_NOTIFICATION'			=> 'Nieuwe Reactie: <strong>“%1$s”</strong> Door: %2$s In:<br /> <strong>%3$s</strong>',
+	'REACTION_NOTIFICATION'			=> '<strong>Nieuwe Reactie:</strong> <img src="%1$s" class="reaction-notification" alt="%2$s" /> Door: %3$s In:<br />  “%4$s”',
 	'REACTION_TYPES'				=> 'Reactie Types',
 	'REACTION_TYPE_DUPLICATE'		=> 'Dubbele Reactie',	
 	'REACTION_UPDATED'				=> 'Reactie geupdate',
